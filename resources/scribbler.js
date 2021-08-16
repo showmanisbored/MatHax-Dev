@@ -12,15 +12,10 @@ var getAll = function (selector, scope) {
 // setup typewriter effect in the terminal demo
 if (document.getElementsByClassName('demo').length > 0) {
   var i = 0;
-  var txt = `MatHax
+  var txt = `MatHax Client
             MatHax Legacy is an fork of Meteor client. It is an 1.17.1 utility mod this means it gives you an advantage over people who dont use it.
-
-            Main features:
-
-            - custom features
-            - active development
-            - an good listening developer team
-            - an active discord server`;
+            
+            Description will be added here`;
   var speed = 80;
 
   function typeItOut () {
