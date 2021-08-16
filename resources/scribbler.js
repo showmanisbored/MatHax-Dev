@@ -9,18 +9,18 @@ var getAll = function (selector, scope) {
   return scope.querySelectorAll(selector);
 };
 
-// setup typewriter effect in the terminal demo
-if (document.getElementsByClassName('demo').length > 0) {
+if (document.getElementsByClassName('text').length > 0) {
   var i = 0;
   var txt = `MatHax Client
-            MatHax Legacy is an fork of Meteor client. It is an 1.17.1 utility mod this means it gives you an advantage over people who dont use it.
-            
-            Description will be added here`;
+               
+             MatHax Legacy is an fork of Meteor client. It is an 1.17.1 utility mod this means it gives you an advantage over people who dont use it.
+             
+             Description will be added here`;
   var speed = 80;
 
   function typeItOut () {
     if (i < txt.length) {
-      document.getElementsByClassName('demo')[0].innerHTML += txt.charAt(i);
+      document.getElementsByClassName('text')[0].innerHTML += txt.charAt(i);
       i++;
       setTimeout(typeItOut, speed);
     }
