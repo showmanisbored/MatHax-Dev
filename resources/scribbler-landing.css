@@ -1,48 +1,4 @@
 /* nav specialized to landing page */
-#loader-wrapper .loader-section {
-    position: fixed;
-    top: 0;
-    width: 51%;
-    height: 100%;
-    background: #1c1d26;
-    z-index: 1000;
-}
- 
-#loader-wrapper .loader-section.section-left {
-    left: 0;
-}
- 
-#loader-wrapper .loader-section.section-right {
-    right: 0;
-}
-
-.loaded #loader-wrapper .loader-section.section-left {
-    -webkit-transform: translateX(-100%);
-    -ms-transform: translateX(-100%);
-    transform: translateX(-100%);
-}
- 
-.loaded #loader-wrapper .loader-section.section-right {
-    -webkit-transform: translateX(100%);
-    -ms-transform: translateX(100%);
-    transform: translateX(100%);
-}
-
-.loaded #loader {
-    opacity: 0;
-        -webkit-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-}
-
-.loaded #loader-wrapper {
-        -webkit-transform: translateY(-100%);
-            -ms-transform: translateY(-100%);
-                transform: translateY(-100%);
- 
-        -webkit-transition: all 0.3s 0.6s ease-out;
-                transition: all 0.3s 0.6s ease-out;
-}
-
 .logo {
   background: url('images/icons/icon.png') no-repeat;
   background-size: contain;
