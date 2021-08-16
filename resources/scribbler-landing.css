@@ -1,6 +1,23 @@
 /* nav specialized to landing page */
+#loader-wrapper .loader-section {
+    position: fixed;
+    top: 0;
+    width: 51%;
+    height: 100%;
+    background: #1c1d26;
+    z-index: 1000;
+}
+ 
+#loader-wrapper .loader-section.section-left {
+    left: 0;
+}
+ 
+#loader-wrapper .loader-section.section-right {
+    right: 0;
+}
+
 .logo {
-  background: url('logo.svg') no-repeat;
+  background: url('images/icons/icon.png') no-repeat;
   background-size: contain;
   margin: 1rem 0 0 1rem;
 }
