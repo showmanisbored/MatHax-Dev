@@ -84,11 +84,6 @@ p {
   color: #a3a3a3;
 }
 
-/*a, a:hover {
-  text-decoration: none;
-  color: var(--primary-color);
-}*/
-
 a:link {
   color:#ffffff;
 }
@@ -206,6 +201,18 @@ hr {
   transform: translate3D(0, -3px, 0);
 }
 
+.button--primary a {
+  color:#ffffff;
+}
+
+.button--primary a:hover {
+  color:#ffffff;
+}
+
+.button--primary a:clicked {
+  color:#ffffff;
+}
+
 .button--primary:hover::after {
   transform: rotate(90deg);
 }
@@ -219,6 +226,19 @@ hr {
 .button--secondary:hover {
   border-color: var(--accent-color);
   color: var(--accent-color);
+}
+
+
+.button--secondary a {
+  color:#ffffff;
+}
+
+.button--secondary a:hover {
+  color:#ffffff;
+}
+
+.button--secondary a:clicked {
+  color:#ffffff;
 }
 
 /* links */
