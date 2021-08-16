@@ -80,6 +80,7 @@ html, body {
 }
 
 p {
+  line-height: 150%;
   font-weight: 300;
   color: #a3a3a3;
 }
