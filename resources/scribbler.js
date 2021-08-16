@@ -11,7 +11,7 @@ var getAll = function (selector, scope) {
 
 if (document.getElementsByClassName('text').length > 0) {
   var i = 0;
-  var txt = `MatHax Client
+  var txt = `website show-description
                
              MatHax Legacy is an fork of Meteor client. It is an 1.17.1 Utility Client.
              
