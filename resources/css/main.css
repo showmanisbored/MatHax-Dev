@@ -85,14 +85,17 @@ p {
 }
 
 a:link {
+  text-decoration: none;
   color:#ffffff;
 }
 
 a:hover {
+  text-decoration: none;
   color:#ff2a4d;
 }
 
-a:clicked {
+a:active {
+  text-decoration: none;
   color:#ff1b41;
 }
 
@@ -202,14 +205,17 @@ hr {
 }
 
 .button--primary a {
+  text-decoration: none;
   color:#ffffff;
 }
 
 .button--primary a:hover {
+  text-decoration: none;
   color:#ffffff;
 }
 
-.button--primary a:clicked {
+.button--primary a:active {
+  text-decoration: none;
   color:#ffffff;
 }
 
@@ -230,14 +236,17 @@ hr {
 
 
 .button--secondary a {
+  text-decoration: none;
   color:#ffffff;
 }
 
 .button--secondary a:hover {
+  text-decoration: none;
   color:#ffffff;
 }
 
-.button--secondary a:clicked {
+.button--secondary a:active {
+  text-decoration: none;
   color:#ffffff;
 }
 
