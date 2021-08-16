@@ -71,22 +71,6 @@
   text-align: center;
 }
 
-a:link {
-  color:#444D56
-}
-
-a:visited {
-  color:#e44c65
-}
-
-a:hover {
-  color:#e44c65
-}
-
-a:static {
-  color:#444D56
-}
-
 /* normalized */
 html, body {
   padding: 0;
@@ -100,9 +84,21 @@ p {
   color: #a3a3a3;
 }
 
-a, a:hover {
+/*a, a:hover {
   text-decoration: none;
   color: var(--primary-color);
+}*/
+
+a:link {
+  color:#ffffff;
+}
+
+a:hover {
+  color:#e44c65;
+}
+
+a:clicked {
+  color:#e44c65;
 }
 
 hr {
