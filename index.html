@@ -20,12 +20,13 @@
       <link rel="stylesheet" href="/resources/css/landing.css">
       <link rel="author" href="GeekieCoder, Matejko06">
   </head>
-  <body>
-    <div id="loading" class="loading">
-      <div id="preloader" class="preloader">
-        <span></span>
-	<span></span>
-      </div>
+  <body id="stop-scrolling">
+    <div id="overlayer"></div>
+    <div class="preloader">
+       <div class="loader">
+          <span class="loader-inner"></span>
+       </div>
+       <p> Loading...</p>
     </div>
     <font color="#e44c65">
     <nav>
@@ -84,7 +85,7 @@
         </div>
       </div>
       <div class="callout">
-        <p>Download MatHax using the button below.</p>
+        <p>Download MatHax using the buttons below.</p>
         <p>MatHax is currently under development.</p>
         <a href="/" class="button--primary">MatHax v1.0.0 - Fabric ?.?.?</a><br>
         <p>Download MatHax Legacy using the button below.</p>
@@ -123,6 +124,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="/resources/js/main.js"></script>
-    <script src="/resources/js/preloader.js"></script>
+    <!-- jQuery -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script>
+   $(window).load(function() {
+   $(".preloader").delay(5000).fadeOut("slow");
+   $("#overlayer").delay(5000).fadeOut("slow");
+   })
+</script>
   </body>
 </html>
