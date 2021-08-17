@@ -13,7 +13,6 @@
   --code-bg-color: #e44c65;
 }
 
-
 #overlayer {
   width:100%;
   height:100%;  
@@ -23,10 +22,10 @@
     right: 0;
     bottom: 0;
   z-index: 2;
-  background:#4a4a4a;
+  background: #1c1d26;
 }
 
-.preloader p{
+.preloader p {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -35,7 +34,7 @@
   height: 90px;
   
   text-align: center;
-  color: #fff;
+  color: #e44c65;
   font-size: 24px;
   z-index: 3;
 }
@@ -47,7 +46,7 @@
   left: 50%;
   position: absolute;
   z-index:3;
-  border: 4px solid #Fff;
+  border: 4px solid #e44c65;
   top: 50%;
   animation: loader 2s infinite ease;
 }
@@ -56,7 +55,7 @@
   vertical-align: top;
   display: inline-block;
   width: 100%;
-  background-color: #fff;
+  background-color: #e44c65;
   animation: loader-inner 2s infinite ease-in;
 }
 
