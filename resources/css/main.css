@@ -23,10 +23,10 @@
     right: 0;
     bottom: 0;
   z-index: 2;
-  background:#4a4a4a;
+  background: #1c1d26;
 }
 
-.preloader p{
+.preloader p {
   position: absolute;
   top: 80%;
   left: 50%;
@@ -35,7 +35,7 @@
   height: 90px;
   
   text-align: center;
-  color: #fff;
+  color: #e44c65;
   font-size: 24px;
   z-index: 3;
 }
