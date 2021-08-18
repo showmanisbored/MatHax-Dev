@@ -21,4 +21,18 @@
       <link rel="author" href="GeekieCoder, Matejko06">
       <meta http-equiv="refresh" content="0" URL="https://discord.gg/x2XZvUdJAJ">
   </head>
+    <body id="stop-scrolling">
+      <div id="overlayer"></div>
+        <div class="preloader">
+          <div class="loader">
+            <span class="loader-inner"></span>
+         </div>
+      </div>
+    <script>
+   $(window).load(function() {
+   $(".preloader").delay(5000).fadeOut("slow");
+   $("#overlayer").delay(5000).fadeOut("slow");
+   })
+   </script>
+    </body>
 </html>
