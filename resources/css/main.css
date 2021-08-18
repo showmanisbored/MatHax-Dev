@@ -25,20 +25,6 @@
   background: #1c1d26;
 }
 
-.preloader p {
-  position: absolute;
-  top: 80%;
-  left: 50%;
-  margin-left: -45px;
-  width: 120px;
-  height: 90px;
-  
-  text-align: center;
-  color: #e44c65;
-  font-size: 24px;
-  z-index: 3;
-}
-
 .loader {
   display: inline-block;
   width: 30px;
